@@ -1,0 +1,371 @@
+$ wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
+$ chmod a+x gh-md-toc
+
+# Cleavis' Vanilla Warrior Tank Guide
+
+Table of Contents
+=================
+
+  * [Preamble](#Preamble)
+  * [References](#References)
+  * [1. How to Skill?](#1. How to Skill?)
+  * [2. How to Threat?](#2. How to Threat?)
+        * [2a. AoE Threat Abilities](#2a. AoE Threat Abilities)
+        * [2b. A Short Digression on Heroic Strike](#2b. A Short Digression on Heroic Strike)
+  * [3. How to Gear?](#3. How to Gear?)
+  * [4. How to Enchant?](#4. How to Enchant?)
+  * [5. How to Consume?](#5. How to Consume?)
+  
+## Preamble
+
+Timeless resources never change, but their application in dynamic multiplayer environments yet may.  As a result, the Vanilla World of Warcraft (WoW) tanking meta has continued to evolve, and updated guides play a role bridging the understanding from 2006 to today.  
+Primary resources herein are from retail periods in WoW, generally in 2005-2006, with personal experience explanations primarily gathered from play on the Kronos and Lightshope private servers in 2015-2017.  This guide aims to provide information for various stages of tanking starting at level 60 on Vanilla WoW / Classic WoW servers.  It assumes you have a basic understanding of WoW mechanics and are familiar with terms such as Aggro, Threat, Defense, DPS, Crit, and Respec.
+
+## References
+### Primary
+i. Satrina's Vanilla Blog – https://web.archive.org/web/20070104045517/http://evilempireguild.org:80/guides/acstamina.php
+ii. Kenco's Research on Threat – (June 2006, pre-1.11) http://wowwiki.wikia.com/wiki/Kenco%27s_research_on_threat?oldid=166191
+iii. Kenco’s “A Guide to Threat” – (July 2006, post-1.11) https://web.archive.org/web/20070105001753/http://evilempireguild.org:80/guides/kenco2.php
+iv. Kenco: A Guide to Threat – (October 2007, post-2.2) https://web.archive.org/web/20071219022452/http://elitistjerks.com/f31/t9258-kenco_guide_threat/
+### Secondary
+v. Armilus' Tank Guide – https://web.archive.org/web/20160502073910/https://forum.nostalrius.org/viewtopic.php?f=36&t=16057&sid=7af433d84e8516226e29947392ce1a52
+vi. Agramesch's Tank Guide – https://web.archive.org/web/20161130113804/http://www.wow-one.com/forum/topic/1807-agrameschs-tankguide
+vii. Cleavis' Tank Guide (OLD) – http://paradigm-of-kronos.shivtr.com/forum_threads/2295209
+Generally speaking, the best resources can be prioritized from oldest to newest in terms of archived Retail Vanilla sources in 2005 and 2006; these make up the primary references.  In terms of Private Server references, this trend is reversed, with newer resources generally being better sources; these make up the secondary references.  Private Servers have improved towards more “Blizzlike” development over the years, and the more recent iterations of guides tend to be better representations of the original 2006 mechanics (for 1.12, in most cases).  Deciphering in 2017 which mechanics (whether from private servers, TBC references, or later) are true to 2005-2006 Vanilla WoW can remain a challenge, however, and there will be some things forever lost in the ether that only Blizzard can confirm or know.  As well, while many concepts in Vanilla WoW tanking are timeless, a greater emphasis on a more-balanced or threat-centric strategy has emerged in the private server meta as recently as 2016.  This may be the result of better understanding of Vanilla mechanics, peculiarities arising from emulating 1.12 mechanics in pre-1.12 content, or some combination of the two.  It will remain to be seen to what extent the following information proves useful on Classic WoW servers.
+In terms of the references themselves, Satrina’s Tank Blog is everything we want in a Vanilla reference: it is factual, succinct, and accurate to late-vanilla mechanics (1.10+).  Kenco's Research on Threat is similar, with a pre-1.11 version available on wowwiki, a post-1.11 version archive sourced from Satrina’s Blog, and a post-2.2 version archive sourced from Elitist Jerks (EJ).  Notably, the EJ version has additional, useful information over each of the former, but can be risky to navigate as some points within it relate specifically to Burning Crusade (TBC) mechanics which are not relevant to 1.12-era WoW due to changes in patches 2.0, 2.1, and/or 2.2.
+Regarding the private server guides, Armilus’ Tank Guide is most relevant to progressively-itemized servers, particularly Nostalrius (and its ilk) which, at the time of this writing, appears to be the most likely precursor and currently closest point of reference to Classic WoW.  Agramesch’s Tank Guide relates to the Feenix private server group, which was arguably the most faithful Blizzlike recreation of its generation.  Agramesch’s information is somewhat dated today; however,timeless resources never change and it provides the general framework for formatting of this guide and is enjoyable to read.  Finally, my own previous guide provides the skeleton of the below.  Information in my previous guide is misleading or incorrect in at least two places; it is provided solely as a point of reference to defend the claim that the tanking meta has evolved over time on private servers.
+
+## 1. How to skill?
+Picking your talent points as a Tanking Warrior is not as cut-and-dry as some may lead you to believe.  There are several different approaches, from the PvP-specialized hybrid tank, to the 5-man PvE Protection Warrior, to 40-man Protection and Fury Tank raiding builds.  The below assumes the post-1.6 Warrior talent tree and I believe in good faith as of the writing of this guide that post-revamp talents is a fair assumption for Classic WoW.  I present five (5) level-60 builds for consideration:
+a) PvP Hybrid Tank – There may be a time when you want to grind PvP ranks while still being effective as a tank in PvE.  Particularly at the start of a fresh 1.12 server with late-game itemization, as on Kronos for example, this is a strategy that can pay dividends if you can get ahead of the PvP curve and nolife the early several weeks of a server.  While attaining Rank 14 will likely take the better part of five months, choosing not to raid in this period could put you behind in terms of itemization, dkp, or guild standing if your end goal is raid tanking.  The pragmatic case may be to build a hybrid PvP/Defiance spec:
+http://armory.twinstar.cz/talent-calc.php?cid=1&d=vanilla&tal=0330500135201500210300000000000000050230110500000000 
+(Alternative Link: https://db.vanillagaming.org/?talent#LchxzAbq0dcZxfzox )
+There are some obvious downsides to this build.  In terms of PvP, you trade Piercing Howl, Booming Voice, and Blood Craze for Last Stand.  In terms of tanking, early 60 dungeons will often leave you rage starved and this build does you very few favors in that department: your main attack is Mortal Strike instead of Shield Slam, you do not have Improved Sunder Armor nor Improved Heroic Strike, and you have points in talents that don’t help you tank such as Two-Handed Weapon Specialization.  You’re spending most of your day in battlegrounds anyway, right?  Your guild and your BG teammates will probably hate you for using a hybrid spec, but the guildies at least will thank you later.
+b) 5-man Protection Tank – If you’re doing the sensible thing and avoiding the R14 PvP grind, the next most sensible thing you can do is spec to succeed while farming your pre-raid gear.  Despite what anyone says, tanking in 5-mans is often more challenging than in raids.  You should really do yourself the favor and spec for success in 5-mans by starting your newb tank with this:
+http://armory.twinstar.cz/talent-calc.php?cid=1&d=vanilla&tal=0500200000000000000500000000000000055250113530201051 
+(Alternative Link: http://db.vanillagaming.org/?talent#LV0bZVZEizseMzVo )
+Early 60 tanks in 5-mans should primarily be using Revenge and Sunder Armor, with liberal use of Taunt.  Improved Sunder Armor helps you save rage, Improved Revenge provides some trash mitigation and control, and Improved Taunt is good for catching aggro rips more often.  Two points in Tactical Mastery is basically a must-have for tanking dungeons, as this lets you Mocking Blow or Intercept.  You could reasonably take points out of Anticipation to get the last three points of Tactical Mastery and Anger Management if you feel comfortable enough with your survivability.
+c) Base 40-man Protection Tank – Your 5-man spec can work for tanking some raids, but let’s discuss the generalized form:
+http://armory.twinstar.cz/talent-calc.php?cid=1&d=vanilla&tal=0500200000000000000500000000000000055250110500001051
+(Alternative Link: http://db.vanillagaming.org/?talent#LV0bZVZEizox0zVo )
+This build is 8 points short of full and should give you an idea about which points are flexible in most traditional protection builds.  Improved Taunt, Improved Shield Wall, and Tactical Mastery (like http://armory.twinstar.cz/talent-calc.php?cid=1&d=vanilla&tal=0500500000000000000500000000000000055250110510221051 ) are all fine choices, for example, but there is nothing wrong with Improved Revenge, Improved Sunder, Improved Shield Bash, or Improved Heroic Strike.  You can back off points in Anticipation again if your gear is starting to get better; traditional wisdom points to about 425 Defense as a sweet spot for survivability (Satrina).
+d) Impale 40-man Protection Tank – Once you find you aren’t dying unexpectedly to raid bosses and people are starting to push up against your threat cap, you may want to step up your threat game.  Impale Prot has become the standard protection spec in the 2017 private server meta, due to cyclical gains to the raid from higher threat per second (TPS) generation.  It goes like this: if your dps are able to do more damage due to better tank threat, your fight length will be shorter; if your fight length is shorter, mana concerns are lessened and healers are able to put out more throughput; if healers are able to put out more throughput, tanks are able to gear and spec for better threat over survivability.  This creates a loop whose output is shorter fights and faster raids.  
+http://armory.twinstar.cz/talent-calc.php?cid=1&d=vanilla&tal=0530400030200000000300000000000000055250110500001051
+(Alternative Link: http://db.vanillagaming.org/?talent#LVhL0hbZcZEizox0zVo )
+Generally speaking, this build scales better with threat stats than standard protection specs due to Impale.  As your gear improves or your healers allow, you can move points around for more flexibility and better rage management, as well.  In this case, one or two points can come out of Deflection and go into Tactical Mastery and Anger Management; any number of points (up to 6) can come out of Anticipation or Toughness to go into Improved Sunder Armor or Improved Heroic Strike.
+e) 40-man Fury Tank – If your raid is consistently threat capped with a protection spec or if you are consistently speed running raids on farm, a fury spec might be right for you.  This is generally a corner case specialization for main tanks who can expect to be fully world buffed with full consumables at all times.  I present two variations:
+e.i) Sword and Board Fury - http://armory.twinstar.cz/talent-calc.php?cid=1&d=vanilla&tal=3000000000000000000505200502501005150230110500000000
+(Alternative Link: http://db.vanillagaming.org/?talent#LhZVVbVMxoVoxfzox )
+e.ii) Dual Wield Fury - http://armory.twinstar.cz/talent-calc.php?cid=1&d=vanilla&tal=0000000000000000000505000552501005150230110500000000
+(Alternative Link: http://db.vanillagaming.org/?talent#LZVV0VgxoVoxfzox )
+These turn you into a dps warrior who does damage from the front in defensive stance.  As the names suggest, Sword and Board Fury will want to use a 1H and a shield while Dual Wield Fury will want to use two 1H weapons.  Planning and executing gear setups and healing strategies for each individual boss can be crucial to dual wield tanking, as your avoidance and effective health will be significantly lower than alternative protection spec options and you will not be able to shield block to push off crits and crushes.  Nonetheless, if your guild prefers to get things done quickly with fewer bottlenecks on threat, this is the way to do it.
+I would recommend against fury tanking if you do not expect to have world buffs and full consumables.  Warrior rage and damage mechanics in Vanilla were tuned without these things in mind, plain and simple, and fury tanking only exists outside these standard assumptions.  Somewhere in the area of 30%+ critical strike and 2,000+ attack power alongside 390+ defense and 9k+ health is roughly where you are looking to be in BWL and AQ40 with this sort of setup, depending on the threat needs of your raid.  Below these benchmarks, you will generally be better served with a Protection spec.
+
+## 2. How to threat?
+First off, you need to know which abilities do bonus threat and how much.  The following lists raw values, i.e. before the modifiers from battle stance or defensive stance, and ignores damage done (most from Kenco, post-1.11; Cleave info from Armilus’ tank guide):
+Sunder Armor............260
+
+Heroic Strike 8.........145
+
+Heroic Strike 9 (AQ)....175
+
+Revenge 5...............315
+
+Revenge 6 (AQ)..........355
+
+Shield Bash.............180
+
+Shield Slam (1.11)......250
+
+Thunder Clap............130
+
+Demoralizing Shout.......43
+
+Battle Shout.............55
+
+Cleave..................100
+
+Threat values are defined by the standard of 1 Damage = 1 Threat.  Damage caused by abilities also causes threat in addition to the threat values in the table.  Bloodthirst does no bonus threat, but hits for 45% of your attack power as damage (which is usually quite a bit harder than shield slam).  Battle Shout does 55 threat per player buffed (so up to 5 players x 55 threat = up to 275 threat), divided evenly among all the mobs with which you are in combat.  Demoralizing Shout does 43 threat to each mob it debuffs.  Threat modifiers (Stance, Defiance) are multiplicative in 1.12.  Cleave does 100 bonus threat to each target it hits, in addition to its damage bonus of 50 and base damage done.  Non-damage related rage gains cause threat to all mobs with which you are in combat, similarly to healing threat, at a rate of 5 threat per rage gained, divided equally among the mobs; rage gain threat is not affected by stance or other multipliers.  Defensive Stance provides a 30% multiplier (1.3x), Defiance provides a 15% multiplier (@ 5pts; 1.15x), and other stances (Battle, Berserker) provide a -20% multiplier (0.8x).  For example, casting Sunder Armor in Defensive stance with Defiance does 260*1.3*1.15 = 389 threat; a rank 5 Revenge that does 30 damage with Defiance does (315+30)*1.3*1.15 = 516 threat.
+In very general terms for a starter tank, you can simplify your single-target priority order to:
+Revenge -> Shield Slam -> Sunder Armor -> Heroic Strike
+While in rage starved scenarios it typically looks more like:
+Revenge -> Sunder Armor
+…and of course the usual disclaimer applies that to use Revenge you need to block, dodge, or parry first, which can be forced to occur through the use of Shield Block.  If you consider the rage cost of Shield Block (+10) in the first list, Revenge slips in priority, however this is not a reasonable assumption when Shield Block is already a sunk cost: Shield Block should be used to push Crushing Blow off the hit table against level 63 mobs.  Apart from an initial pull of Shield Slam alone for snap aggro, you should generally have Shield Block up all the time and Revenge available.
+Revenge maintains its priority in the second (‘rage starved’) list even with the added rage cost of Shield Block, but this gets murky when you consider the sequencing requirement of getting attacked first.  For initial aggro, you will be better served opening with Shield Slam (or Sunder Armor, Shield Bash, or Battle Shout) to provide you with enough time to then sequence in a block and Revenge.  If your rage starved scenario is truly bad (consistently < 15 rage per GCD), you may instead consider using Battle Shout or Shield Bash instead of Sunder Armor.  
+Having said all of that… These priorities are an oversimplification.  In a little more detail, the primary drivers of ‘which ability should I use next?’ should be (1) your rate of rage generation and current level of rage, (2) your total threat required to overcome dps players’, and (3) your expected time to next pull.
+(1) Consider the theoretical case where your rage generation is infinite.  We can use Vaelastrasz as a practical example.  In this scenario, you should always have heroic strike cued and shield slam (or bloodthirst) has highest priority.  And, if the situation allows for it, you would even consider using Execute below 20%.  This changes the priority list, as there is now priority for maximizing threat-per-time abilities over threat-per-rage.  In the opposite scenario of extremely limited rage generation, even getting to 15 rage to cast a Sunder Armor may be onerous: in this case it may be better to use Battle Shout when there are few mobs (1-2) and many party members (4-5) in range, Demo Shout when there are many mobs (4-5) and few party members (1-2) in range, or Shield Bash into Revenge when fighting something solo.  In this case we especially want to prioritize threat-per-rage over threat-per-time, and we want to consider the step function of threat generation and the bonus ceiling to rip aggro.  Players at range need to generate 130% of your threat to rip aggro and players in melee need to generate 110%.  This gives initial or current aggro something of a calculation bonus to their relative threat and speaks to why doing SOMETHING is always better than doing NOTHING on the pull.  Or, as traditional wisdom would dictate, just “Let the tank pull!” (Kenco, June 2006), as this effectively starts you as current aggro instead of having to rely on Taunt.
+(2) Consider the case where you do significantly more threat than is needed to hold aggro.  We can use the case where you severely overgear a 5-man instance group (perhaps with a Thunderfury).  In this scenario, threat done above the maximum health of the mob you are tanking or above the maximum possible damage each dps member can contribute has no benefit.  It is wasted effort and rage.  You would be better served pooling your rage to increase your options for the next pull, or to try to maximize your active mitigation.  This can mean the best thing you can do in some cases is only auto attack.
+(3) While there is something to be said for the damage a tank can contribute, you will almost always serve your group better by being prepared for the next pull rather than helping kill the current pull faster.  In practical terms, your time to next pull could be interpreted as the health remaining on the mob you are tanking.  In truth it is also a function of healer or group mana levels, your current lead on threat (see (2)), and the distance to or mechanics of the next pull.  Dynamically micromanaging these things is the true challenge of a good tank and should dictate your play in just about every circumstance.  If holding aggro with a single Revenge every 5 seconds is a plausible option and you have the opportunity to pool rage as a result, this will usually be the preferable line over dumping rage into damage.  
+
+### 2a. AoE Threat Abilities
+As previously mentioned, Battle Shout causes 55 threat per party member buffed, split among all mobs in combat, while Demoralizing (Demo) Shout causes a flat amount of threat (43) to each target that it hits.  If you are in range of your entire party and in combat with only 1 mob, Battle Shout surpasses even Sunder Armor for single target threat (275), and has a lower rage cost (10).  While this scenario may be unlikely most of the time, even hitting three party members (165) while in combat with two (82.5) or three (55) mobs makes Battle Shout superior to Demo Shout, and is usually the best multi-target threat generator in the Warrior toolkit.  This is referred to as ‘Shout Tanking’ and is generally quite useful for holding aggro in 5-man dungeons.  If you are trying to tank more than 5 mobs at a time (or your party is nowhere to be found), you can just switch to Demo Shout.  Both shouts have a 20 yard base range, before talents.
+Also as previously mentioned, abilities that put "you gain x rage" in the combat log generate 5 threat per point gained, split among all mobs with which you are in combat, although this does not get modified by threat multipliers such as stance or Defiance.  Rage gen abilities that generate threat include Bloodrage, Improved Blocking, Unbridled Wrath, rage potions, and the 5-piece Battlegear of Might set bonus.  The practical application of rage gen threat includes waiting to pop Bloodrage until the mob is in combat with you, or drinking a rage potion (Mighty, Great) for some extra threat off the GCD.  Drinking a Mighty Rage potion generates (5*60 =) 300 threat, for example, or about three quarters of a full-party Battle Shout (55*5*1.3*1.15 = 411 threat).
+Cleave has a flat threat bonus of 100 threat on top of its damage caused. The bonus threat is applied to each target hit, not just the primary target.  In our previous case of white hitting for 400 damage, a rank 6 Cleave will hit two targets instead for (400+50 =) 450 and cause (450+100 =) 550 threat to each of them, for a net gain of 150 threat on the main target and 550 threat (before modifiers) on the secondary target for a cost of 20 plus your white swing (~or about 33 effective) rage.  Cleave is useful in place of heroic strike when tanking 2 or more targets.
+Grenades, Sapper Charges, Dynamite and Oil of Immolation are all excellent sources of AoE threat.  The snap threat of an appropriately-timed Goblin Sapper Charge can be very effective at holding seemingly-impossible packs on you.  As usual, you will want to use the most appropriate tool in the toolkit.  If you have a small pack of mobs that can be stunned, grenades are a good choice.  If you are going to want your cooldown within the next 10 minutes, dynamite is a safe choice, and usually comes with a larger area of effect than grenades.  Oil of immolation is a mostly risk-free option, providing a small amount of AoE damage and threat for virtually no opportunity cost (but for a fairly high gold cost).  Use your discretion, but be aware of your options.  If you’re not an engineer, EZ-Throw Dynamite and Oil of Immolation are still things to familiarize yourself with.  Or just reroll engineering.
+Challenging Shout is your AoE taunt, functioning like Mocking Blow – Challenging Shout holds all mobs within 10 yards on your for 6 seconds, after which they will run off and murder someone squishy.  Use in case of emergency and kill things quickly.  Don’t be afraid to use Challenging Shout on a solo mob.
+Thorns effects earn honorable mention for AoE threat.  Warrior tanking of large packs such as the flame imps in Molten Core or the chromatic whelps in the BWL suppression room can be extremely taxing or seemingly impossible.  You simply cannot tab-sunder 10+ targets, and you won’t be able to spam grenades or Challenging Shout often enough.  Thorns damage causes threat for whoever is getting hit, which is hopefully you!  This can help bridge the gap between hopelessly spamming Battle or Demo Shout and actually holding onto a bunch of mobs’ aggro.  Thorns damage sources include the Thorns spell itself, warlock imp’s Fire Shield, Blessing of Sanctuary, Un’goro crater’s Crystal Spire, Force Reactive Disk, Essence of the Firelord, and any of several other similar gear or buffs that cause damage when hit.
+
+### 2b. A Short Digression on Heroic Strike
+If you are asking yourself if you should Sunder Armor or Heroic Strike, you should Sunder Armor.  Fair enough?  That should cover 99% of cases.
+If you are still asking, then the question is both much simpler and much more complicated.  It is simpler in that if you are actually faced with the question, it means you have somewhere between 12 and 29 rage, you are not currently in the GCD, and you don’t expect to have another 12-15 rage before your next white swing.  This is an extremely limited scenario and, simply put, Sunder Armor and Heroic Strike do not share the most important opportunity cost, which is time.  They do share the opportunity cost of rage, which is where people can get caught up assuming they are interchangeable.  But rage is only half of the equation, and arguably it is the lesser half.  The solution to this problem is not asking yourself which ability you should press; the solution is instead asking, “how can I generate more rage?”  It is a macro-level problem solved by getting and wearing more threat gear, learning how and when to stack buffs, and knowing when and how much extra damage you can soak for extra rage.  Pressing Heroic Strike (HS) instead of Sunder Armor – even if it were correct to do so – will not solve any fundamental problem.
+The question is much more complicated in that Heroic Strike bonus threat calculations are harder than they might seem.  Some things to consider:
+1) Heroic Strike replaces a white hit; white hits generate rage; Heroic Strike costs more than 15 rage
+2) Heroic Strike does bonus damage (Rank 8 = 138, Rank 9 = 157), which also crits if your HS crits
+3) Heroic Strike moves your white hit to the yellow hit table, which cannot result in a glancing blow
+
+And a little more in depth:
+(1) If you have 2,100 attack power (AP) and a 50 DPS weapon, your effective dps is (2100/14 + 50 =) 200.  Ignoring crits and misses for a moment, let’s assume your weapon is 2.0 speed, and you hit for 400 damage every 2 seconds.  Each hit generates (400/30 =) ~13 rage.  If you replace one of those with a 15 rage HS, your HS effectively costs you (13+15 =) 28 rage.  The takeaways here are that Heroic Strike has a higher effective rage cost than 15, and the higher your AP gets, the higher the effective cost of HS.  As a result, Heroic Strike’s threat-per-rage scales negatively with AP.
+(2) Using the same 2,100 AP as in (1), if we white hit for 400 (a), we would crit for 800 without Impale, or 880 with Impale (c).  If this were instead a Heroic Strike, it would hit for 538 (b) (rank 8; 557 rank 9) and crit for 1,076 without Impale (1,114 rank 9), or 1,184 with Impale (d) (1,225 rank 9).  The difference between (a) and (b) is the expected 138 bonus damage done by HS, and the difference between (c) and (d) is 304, which is equal to the bonus damage critting (138*2.2 = 304).  The takeaway here is Heroic Strike’s threat-per-rage and threat-per-time scale positively with crit.
+(3) Moving a swing from the white table to the yellow table increases its expected damage.  The main difference between the tables is glancing blows.  White hits can result in a glancing blow, while yellow hits cannot.  While the correct values of the retail vanilla hit table itself is still, as of the writing of this guide, up for debate, I present to you one version for the sake of argument.  The conclusion is the same regardless the accuracy of the values below.  White and yellow hit tables against a level 63 boss mob from the front with no +hit, no +crit, no +weaponskill, and using a 1H weapon and shield, look (for the sake of this guide) as follows:
+ 
+ 
+ 
+White Hit Table, No Gear    		
+
+Miss................. 8.6 %		
+
+Parry................ 5.6 %		
+
+Dodge................ 5.6 %		
+
+Block................ 5.6 %		
+
+Glancing Blow......... 40 %		
+
+Crit................. 4.4 %		
+
+Hit................. 30.2 %		
+
+Yellow Hit Table, No Gear    
+
+Miss................. 8.6 %		
+
+Parry................ 5.6 %		
+
+Dodge................ 5.6 %		
+
+Block................ 5.6 %		
+
+Crit................. 4.4 %		
+
+Hit................. 70.2 %		
+
+
+ 
+Without gear (no +hit, no +crit, no +weaponskill, 700AP, 50 DPS weapon, Impale), moving from this white hit table to this yellow hit table alone takes a 141.36 expected white to a 165.36 expected yellow, a gain of 24 damage or about ~17% more expected damage (before any ability bonuses).  If we change our assumption to significantly better gear (8% +hit, 30% +crit, 2100AP, 50 DPS weapon, Impale), the results take a 464.32 white to a 512.32 yellow, a gain of ~10% more expected damage.  The takeaway is simply that moving a swing from the white table to the yellow table increases its expected damage.
+
+So putting (1), (2), and (3) all together, what does it mean in terms of Heroic Strike vs Sunder Armor?  
+ 
+As you can see, Sunder Armor generally performs better in terms of expected threat-per-rage (“TPR”; “Imp TPR” with Improved talents), while Heroic Strike generally performs better in terms of expected threat-per-time (“Threat”; threat-per-action, technically).  This is more decisive than it might look; if you are ever presented with the choice of Sunder Armor versus Heroic Strike, you are already more concerned with threat-per-rage than threat-per-time.  Or, put the other way, if you are concerned primarily with your threat-per-time, you do not meet the criteria for having to choose between Sunder Armor and Heroic Strike (namely 12-29 rage, outside the GCD, and low rage gen).  In short, you should Sunder Armor over Heroic Strike in basically every scenario where you are presented with the choice.  Furthermore, none of the above gives any weight or consideration to the Sunder Armor debuff, which provides a benefit to all future physical attacks, and whose consideration could make the case to further limit any remaining hypothetical scenarios where Heroic Strike would be preferable to Sunder Armor.
+In conclusion, Sunder Armor is a GCD ability that provides a high baseline of threat-per-rage while Heroic Strike is an off-GCD ability that transforms excess rage into additional threat-per-time.  They are not mutually exclusive and you should be prepared to use each as needed.  If you find yourself asking if you should press Sunder Armor or Heroic Strike, just press Sunder Armor.
+
+## 3. How to gear?
+There are a couple of caps you should be aware of, namely the avoidance cap of 102.4% and the defense cap of 440 defense.  The avoidance cap is the amount of dodge, block, parry, and miss you need to effectively push Crit and Crushing Blow off of the hit table against you from level 63 mobs.  This is usually measured while Shield Block is up, but is otherwise pretty easy to achieve.  The defense cap is the amount of defense you need to reduce the crit chance of a level 63 against you to zero.  This is a much more difficult benchmark to achieve, and is largely overrated and unnecessary.
+It is a common misconception that it is the tank’s responsibility to stay alive during an encounter.  It is, in fact, a shared responsibility between all raid members to achieve this, with primary responsibility falling to the healers and secondary responsibility falling to you, the tank.  The tank’s primary responsibilities are positioning and control.  The degree to which the tank must be responsible for their own survival can be summed up in a single question: did the healer(s) have the opportunity to keep you alive?  If the answer is no – because you got one-shotted, you forgot to shield block, or you forgot your Onyxia Scale Cloak, e.g. – then you are to blame.  Your gear needs to be sufficient to survive an encounter for as long as that encounter should be expected to take.  Additional survivability stats beyond a sufficient level, however, come with the lost opportunity cost of threat stats.  And this is a problem.  If you have ever heard a tank ask you to wait for five sunders, they were probably doing something wrong.  They were, perhaps, not taking seriously their responsibility to maintain control.  Or, rather, they were choosing to maintain control by yelling at the raid instead of properly solving the macro-level problem of holding aggro with the macro-level solution of generating more threat.
+Threat is a meaningful mechanic in Vanilla or Classic WoW, but you, the tank, can reduce the degree to which it is limiting.  This is because the section of the curve under which threat operates benefits from what economists call economies of scale.  During every patch from 1.3 to 1.12, there existed at least one DPS class who was capable of ripping aggro from the tank by doing too much damage.  If those DPS were no longer capped by threat mechanics and were able to do more damage, healers could save mana due to shorter fights.  And, so long as the tank does not die in the process, an increased emphasis on balanced or even threat-centric gearing strategies would thus result in less healer mana spent per raid damage done, because bosses have fixed health totals.  This is an economy of scale.
+Determining to what extent you can forego survivability to improve threat is not a simple calculation.  There will, naturally, be plateaus of effective health for given encounters above which you can stack threat stats due to the binary nature of survival (you live or you die) and the discrete nature of incoming damage (boss hits every X seconds for Y damage).  This means your individual pieces of gear are not so important (and, so, ‘best in slot’ lists are not so important), but rather your total stats are the important metric, especially taken in context along with world buffs, consumables, and spec.  This does not preclude the use of gear lists to get an idea of what gear is available – particularly when describing certain rare stats in certain tiers, such as hit rating in tier 1 – but should caution the reader against seeking only a piece that is considered best for a given slot.  It does, on the other hand, promote collecting several pieces for a given slot, even if that piece would not immediately see use, as a means to improve flexibility in acquiring and using future upgrades.  The takeaway should be that the goal is to acquire a bare minimum of acceptable survivability gear, after which you should want to stack threat gear.  Nonetheless, I know it is desirable to have Best in Slot lists of gear available to know which items in particular to look for, especially for those just starting to tank or not otherwise familiar with the range of items available.
+I have chosen to ignore PvP gear as viable Best in Slot options as the default, with the exception of AV exalted gear, and where specifically excepted (‘pvp setups’, below).   Specifically, the Warsong Gulch exalted rep pants can be quite good early on (in tiers 1 and 2), and the rank 12-14 gear is BiS through tier 2.5, if it is the patch 1.10+ versions.  If you have the time to devote to ranking in PvP, some of these items may be well worth getting (shoulders, boots, pants, shield, weapon).  Nonetheless, I am actively choosing not to list them in the below lists (except where noted), as the time to acquire is extremely onerous. 
+ 
+### Tier 0 (Pre-Raid)
+ 
+Survivability Gear (pre-raid)
+Head – Golem Skull Helm, Enchanted Thorium Helm
+Neck – Medallion of Grand Marshal Morris, Evil Eye Pendant
+Shoulder – Stockade Pauldrons, Bulky Iron Spaulders
+Back – Redoubt Cloak (if DM is available)
+Chest – Savage Gladiator Chain (if pre-1.10 itemization), Enchanted Thorium Breastplate, Kromcrush’s Chestplate, Ornate Adamantium Breastplate
+Wrists – Bracers of Might (if MC BoE is available), Bracers of Heroism (if T0.5 is available), Fel Hardened Bracers (if DM is available)
+Hands – Stonegrip Gauntlets, Force Imbued Gauntlets (if DM is available)
+Waist – Belt of Might (if MC BoE is available), Belt of Heroism (if T0.5 is available), Stalwart Clutch
+Legs – Legplates of Vigilance (if T0.5 is available), Enchanted Thorium Leggings, Warmaster Legguards
+Feet – Boots of Avoidance, Crystal Encrusted Greaves (if AQ is available), Ribsteel Footguards
+Finger – Band of the Steadfast Hero (if T0.5 is available), Naglering (if 1.10+ itemization)
+Trinket – Frostwolf/Stormpike Insignia Rank 6 (if AV is available), Vigilance Charm, Force of Will
+Weapon – Quel’Serrar, Timeworn Mace, Serathil
+Shield – Draconian Deflector
+Ranged Weapon – Gorewood Bow, Carapace Spine Crossbow
+Threat Gear (pre-raid)
+Head – Lionheart Helm
+Shoulder – Darksoul Shoulders (if ZG is available)
+Chest – Darksoul Breastplate (if ZG is available)
+Wrists – Battleborn Armbraces
+Hands – Voone’s Vice Grips
+Waist – Brigam Girdle (if 1.10+ itemization)
+Legs – Titanic Leggings (if Naxx is available), Darksoul Leggings (if ZG is available)
+Feet – Boots of Heroism (if T0.5 is available)
+Finger – Don Julio’s Band (if AV is available), Band of Earthen Might (if CC is available), Blackstone Ring
+Trinket – Earthstrike (if CC is available), Diamond Flask, Hand of Justice, Blackhand’s Breadth, Rune of the Guard Captain (Horde only)
+Weapon – Ironfoe, Thrash Blade
+Shield – Force Reactive Disk, Skullflame Shield, The Immovable Object
+Ranged Weapon – Fahrad’s Reloading Repeater (if AQ is available), Satyr’s Bow, Blackcrow
+ 
+
+Pre-raid BiS lists for warrior tanking are traditionally heavy on survivability.  Any of several guides (including those referenced here) will list a pre-raid list similar to the survivability list above.  And, to be fair, that is a good way to start out to attain that first plateau of survivability.  As you can see above, the threat gear I have chosen to list is heavy on +hit, which is your best threat stat, especially early on, as +hit is the only threat stat that scales sunder armor (by making it miss less often).  The miss rate listed previously against level 63 mobs is 8.6%, making the soft cap 8% hit and the hard cap 9% hit.  While you may not choose to reach 8 or 9% at the pre-raid level, once you acquire some additional survivability pieces in raids, this becomes a much more desirable goal.
+Taking the lists above together, here is what I will call my Pre-Raid BiS:
+### Cleavis’ Best Pre-Raid BiS (Assumes MC, DM, no AV, no ZG, no T0.5, post-1.10 itemization, no CC)
+Head – Lionheart Helm
+Neck – Medallion of Grand Marshal Morris
+Shoulder – Stockade Pauldrons
+Back – Redoubt Cloak
+Chest – Enchanted Thorium Breastplate
+Wrists – Bracers of Might
+Hands – Stonegrip Gauntlets 
+Legs – Enchanted Thorium Leggings
+Waist – Belt of Might
+Feet – Boots of Avoidance
+Finger – Naglering
+Finger – Blackstone Ring
+Trinket – Hand of Justice
+Trinket – Diamond Flask (Blackhand’s Breadth when on CD)
+Weapon – Ironfoe
+Shield – Draconian Deflector
+Ranged Weapon – Blackcrow/Satyr’s Bow
+This gives you 77 +defense, 4% +hit, and enough threat stats to hold your own in early raiding.  It may be worth noting that Pre-Raid (and Tier 1) lists are extremely dependent on what content is available.
+
+And, then, here is a much easier list to acquire (No BoEs, No Ironfoe) for most tanks starting out:
+### Cleavis’ Easy Pre-Raid BiS (Assumes MC, DM, no AV, no ZG, no T0.5, post-1.10 itemization, no CC)
+Head – Golem Skull Helm
+Neck – Evil Eye Pendant
+Shoulder – Bulky Iron Spaulders
+Back – Redoubt Cloak
+Chest – Kromcrush’s Chestplate
+Wrists – Battleborn Armbraces
+Hands – Force Imbued Gauntlets
+Legs – Warmaster Legguards
+Waist – Stalwart Clutch
+Feet – Ribsteel Footguards
+Finger – Naglering
+Finger – Blackstone Ring
+Trinket – Hand of Justice
+Trinket – Diamond Flask (Blackhand’s Breadth when on CD)
+Weapon –Thrash Blade
+Shield – Draconian Deflector
+Ranged Weapon – Blackcrow / Satyr’s Bow
+
+
+Post-raid BiS lists (especially Tier 2+) are significantly simpler to build, since itemization in most slots is significantly better in the respective current content, with a few exceptions.
+
+
+### Pre-BWL BiS (Tier 1) (Assumes AV, no ZG, no T0.5, post-1.10 itemization, no CC, no PvP)
+Head – Helm of Wrath
+Neck – Onyxia Tooth Pendant
+Shoulder – Pauldrons of Might
+Back – Dragon’s Blood Cape
+Chest – Breastplate of Might
+Wrists – Bracers of Might
+Hands – Gauntlets of Might 
+Waist – Onslaught Girdle
+Legs – Legplates of Wrath
+Feet – Sabatons of Might
+Finger – Don Julio’s Band
+Finger – Band of Accuria
+Trinket – Hand of Justice
+Trinket – Diamond Flask (Blackhand’s Breadth when on CD)
+Weapon – Ironfoe
+Shield – Drillborer Disk
+Ranged Weapon – Striker’s Mark
+This set dumps defense (only +28 here) from best pre-raid in favor of direct avoidance, more armor, and more threat (7% hit).  You may be crit more often, but should have enough armor and stamina at this point to survive a few hits (or a couple crits) without issue.
+As an aside, taking the “tanking” item in each of the Onyxia and Nefarian head quests is objectively wrong.  You cannot replace the Onyxia Tooth Pendant or the Master Dragonslayer’s Ring.  Admittedly, the Onyxia Blood Talisman is situationally useful; however it is generally replaceable irrespective of how much of a survivability upgrade it is at the time.  In fact, the ONLY fight the Onyxia Blood Talisman is the superior item for all of Vanilla is Ragnaros, and even then you may prefer a threat trinket at some point later on.  In every other situation, the Onyxia Tooth Pendant is worth having instead, and will last you longer into content.  And, of course, once you have the Onyxia Tooth Pendant, the Master Dragonslayer’s Medallion is a piece of superfluous survivability gear that you shouldn’t need.  Always take the Master Dragonslayer’s Ring, as it makes the rest of your gearing more flexible and, again, will last you longer into content.
+
+### Pre-BWL BiS w/ PvP (Tier 1+) (Assumes AV, no ZG, no T0.5, post-1.10 itemization, no CC)
+Head – Helm of Wrath
+Neck – Onyxia Tooth Pendant
+Shoulder – Warlord’s/Field Marshal’s Plate Shoulders
+Back – Dragon’s Blood Cape
+Chest – Breastplate of Might
+Wrists – Bracers of Might
+Hands – Gauntlets of Might 
+Waist – Onslaught Girdle
+Legs – General’s/Marshal’s Plate Legguards
+Feet – General’s/Marshal’s Plate Boots
+Finger – Quickstrike Ring
+Finger – Band of Accuria
+Trinket – Hand of Justice
+Trinket – Diamond Flask (Blackhand’s Breadth when on CD)
+Weapon – High Warlord’s Handaxe/Grand Marshal’s Swiftblade
+Shield – High Warlord’s/Grand Marshal’s Aegis
+Ranged Weapon – Striker’s Mark
+
+
+### Pre-AQ BiS (Tier 2) (Assumes AV, ZG, T0.5, CC, post-1.10 itemization)
+Head – Helm of Endless Rage
+Neck – Onyxia Tooth Pendant
+Shoulder – Drake Talon Pauldrons 
+Back – Cloak of Draconic Might
+Chest – Breastplate of Wrath
+Wrists – Bracelets of Wrath
+Hands – Gauntlets of Might 
+Waist – Onslaught Girdle
+Legs – Legplates of Wrath
+Feet – Chromatic Boots
+Finger – Don Julio’s Band
+Finger – Master Dragonslayer’s Ring
+Trinket – Drakefang Talisman
+Trinket – Earthstrike (-> Diamond Flask -> Hand of Justice when on CD)
+Weapon – Thunderfury, Blessed Blade of the Windseeker
+Shield – Elementium Reinforced Bulwark
+Ranged Weapon – Striker’s Mark
+Your +hit gear is a bit more flexible in tier 2 with the additions of DFT and Chromatic Boots.  If DFT is inaccessible to you for whatever reason, look for Zulian Tigerhide Cloak in ZG and keep using your Band of Accuria.  If you were opting to try out dual wield fury tanking with this set (and I wouldn’t prior to this point), put on those extra hit pieces in addition to what you have here for ~11-13% hit.  I have opted to use the Cloak of Draconic Might in this setup for a bit more threat here, but it would not be unreasonable to use the Cloak of Firemaw or Dragon’s Blood Cape for a bit more effective health instead.
+ 
+### Pre-Naxx BiS (Tier 2.5) (Assumes AV, ZG, T0.5, CC, post-1.10 itemization)
+Head – Conqueror’s Crown
+Neck – Barbed Choker
+Shoulder – Conqueror’s Spaulders
+Back – Cloak of the Fallen God
+Chest – Conqueror’s Breastplate
+Wrists – Hive Defiler’s Wristguards (or Bracers of Brutality)
+Hands – Gauntlets of Annihilation 
+Waist – Onslaught Girdle
+Legs – Conqueror’s Legguards
+Feet – Chromatic Boots
+Finger – Ring of the Qiraji Fury (or Quickstrike Ring)
+Finger – Master Dragonslayer’s Ring
+Trinket – Drakefang Talisman
+Trinket – Badge of the Swarmguard (Earthstrike -> Diamond Flask -> Hand of Justice when on CD)
+Weapon – Thunderfury, Blessed Blade of the Windseeker
+Shield – Elementium Reinforced Bulwark (or Blessed Qiraji Bulwark)
+Ranged Weapon – Striker’s Mark (or Crossbow of Imminent Doom)
+
+Full BiS (Tier 3) is not provided at this time.
+
+## 4. How to enchant?
+Enchantments serve as extensions of your total gear set up, and as your gear improves, you may find your optimal enchant choice can change.  Having said that, you will almost always want to maximize your total gains from enchants and there are some easy choices with that in mind.
+Head & Legs – Presence of Might, Libram of Constitution.  If Zul’Gurub is available, you always want to use the Presence of Might ZG enchant on your head and legs.  If ZG is not available, go with 100 HP from Libram of Consitution.  If, for some reason, you have more than 10k HP and ZG is still not yet available (unlikely), or you are looking at helm/leg enchants before you have 102.4 avoidance (also unlikely), then Libram of Protection’s 1% dodge enchant is a reasonable choice.  
+If you do have a pure threat piece you are enchanting, and perhaps also spec dps on occasion, it is not unreasonable to use Libram of Voracity for +8 str (I don’t advocate for Rapidity’s 1% haste) on a Lionheart Helm, for example.  Keep in mind 100 HP = 10 Stam > 8 Str is a fair item budget analysis, though, so if you do intend to tank, stick with Presence of Might or Libram of Constitution in most cases.
+Shoulder – Zandalar Signet of Might, Flame Mantle of the Dawn.  If Zul’Gurub is available, aim to get the Zandalar Signet of Might (+30 Attack Power) from ZG exalted.  If ZG is not available, go with Chromatic Mantle of the Dawn (+5 All Resist) from the Argent Dawn if you are exalted, or Flame Mantle of the Dawn (+5 Fire Resist) if you are not exalted, as fire is the most common element in tiers 1 and 2.  
+If Naxxramas is available and Sapphiron’s shoulder enchants are an option, the tank enchant (Fortitude of the Scourge) is the best choice for your survivability shoulders (generally Tier 3) and the physical dps enchant (Might of the Scourge) is the best choice for your threat shoulders (generally Tier 2.5).
+Back – 3 Agility.  Put 3 agi on everything that isn’t pure survivability gear.  70 armor is generally superior for pure physical survivability, but 3 agi provides a small amount of threat generation and avoidance that is usually worth the armor cost.  You can put 1% dodge on your survivability cloak(s) in AQ+ instead of armor, if you have a pure survivability cloak.  90% of the time, though, just get 3 agi.
+Chest – 4 Stats.  4 agility and 4 strength that scale with kings and zg heart buff (so 5 and 5) at the cost of 60 health unbuffed or 50 health buffed.  Should be a no brainer on Tier 1+.  Go with 100 HP if you are cheap.
+Wrists – 9 Stamina.  Early on, especially your pre-raid bis gear setup will want survivability enchants, and 9 stam delivers.  In later content, maybe you’re playing impale spec and threat is starting to become an issue – switch this to 9 strength.  I usually enchant 9 str on the AQ20 bracers and never look back.  3 defense is a waste of stat budget; don’t ever enchant 3 defense.
+Hands – 7 Agility.  In the 7 agi vs 7 str debate, 7 agi will more often be better suited to your stat needs (survivability) early on.  7 str would be fine in, say, tier 2 content and gear.
+Once AQ is available, get 2% threat (over 15 agility) if you have to hold aggro on things.  Consider that 15 agility is approximately 1% crit, 1% dodge, and 37 armor with buffs.  If you had an enchant that read ‘deal 2% more damage’, you would almost certainly use this over 15 agi.  Then consider 2% threat is even better than that for a tank, since it scales your bonus threat values such as those from Sunder Armor.  In a maximum survivability setup, 15 agi will be better for encounters such as Loatheb, however, so consider it for a second set of gloves.
+Feet – Minor Run Speed.  Always minor run speed.  Again, this reinforces your primary responsibilities of positioning and control, getting from A to B faster and chasing down runners.  There are precious few encounters where 7 stam (or 7 agi) will be superior (Patchwerk, e.g., Golemagg), and minor speed is superior in every other case.
+Weapon – Crusader.  Weapon enchant is a somewhat personal choice.  The alternatives are 15 Agility and Lifestealing.  Crusader will provide you with the most single target threat, and a small amount of aoe threat (from healing).  In contrast, 15 agility is your best survivability enchant (~1% dodge and ~37 armor are generally superior to crusader’s 100 health once or twice a minute) and lifestealing is your best aoe threat enchant (from its healing aggro).
+Shield – 7 Stamina.  Again this comes partly down to personal choice and where your gearing is at.  Early on, particularly in Molten Core, bosses tend to be less prone to breaking through shield block, and 7 stam is a solid gain all of the time.  Later on (BWL+), there are enough bosses who can eat through shield block charges with cleaves, thrashes, and enrages that having the additional mitigation of crushing blows outside of shield block on occasion is sufficient to weight the extra 2% block chance quite highly.
+I used to advocate for thorium shield spike in middle content (tier 2), and it is a fine choice if you do want slightly more threat at the cost of survivability.
+Ranged Weapon – Sniper Scope.  After patch 1.10 in retail Vanilla, Biznicks 247x128 Accurascope no longer applied to melee attacks, and it is probably a fair assumption it won’t either in Classic WoW (or any private server project).  Given that be the case, the +7 damage on your shots from Sniper Scope is worth having for extra threat on bow pulls.  There is really no alternative here, just remember you can enchant your bow in the first place!
+
+## 5. How to consume?
+A list of consumables depends heavily on how a server or project has the relevant elixirs and scrolls stacking or not stacking with other buffs.  This has been a point of contention across private servers over the years, and there is still some disagreement on which potions stack with which in cases where they provide at least one stat in common.  Here is my list of best hits--
+- Flask of Titans: If you can afford a flask, this is your flask.  Extremely valuable to let you cheat into threat stats.  Stacks with everything.
+- Elixir of the Mongoose: This is your agility elixir.  Tons of threat stats and some dodge.
+- Juju Might: This is your strength elixir.  Learn to love to farm furbolgs.
+- Juju Power / Winterfall Firewater: These are your AP elixir(s).  They (probably) shouldn’t stack with one another.  If you can’t reliably farm giants in Winterspring for Juju Power, the furbolgs you’re already farming for Juju Might already drop the firewater.  You should probably have stack of each of these in your bags.  Remember to kill Chief Winterfall while farming – he has a high droprate of firewater.
+- Mighty Rage Potion: This is your Rage potion (and most common potion cooldown).  Good for snap aoe threat, for strategically filling rage lulls, or for putting up a strength buff prior to execute phase.
+- Greater Stoneshield Potion: This is your Armor potion.  For some hard-hitting fights, you might want an armor potion instead of Mighty Rage.  Good mitigation cooldown.  Keep some on hand.
+- Free Action Potion: Invaluable on the pulls on which they work.  Making yourself immune to stun and root in particular can be the difference between a smooth pull and a full raid wipe.  Consider having the raid provide these.
+- R.O.I.D.S.: This is your primary Blasted Lands potion.  There is debate if this is meant to stack with Juju Might.
+- Ground Scorpok Assay: This is your secondary Blasted Lands potion.  Pop this early and log out somewhere convenient prior to raiding.  The 1hr cooldown will count down while you are offline.  There is debate if this is meant to stack with Elixir of the Mongoose.
+- Smoked Desert Dumpling: This is your primary food buff.  In line with getting as much value out of your buffs as possible, 20 strength is greater than 12 stamina alternatives.  Consider Dirge’s Kickin’ Chimaerok Chops in AQ+ instead.
+- Rumsey Rum Black Label: This is your alcohol buff.  If you have a hard time sourcing these from fishermen, consider the cheaper alternative of Gordok Green Grog from Dire Maul North.
+- Spirit of Zanza: 50 stamina is well worth having once ZG is available.  There is debate if this should persist through death or not.  If buying before raid, pop one of these and buy a replacement, since they are unique.
+- Greater Fire/Nature/Shadow/Frost Protection Potion: Absolutely crucial in their respective important fights. Take fire to Molten Core, nature to Temple of Ahn’Qiraj, and shadow and frost to Naxxramas.  Consider some regular Nature Protection Potions in AQ40 in addition to greaters to save some money.  Your guild should try to coordinate how to provide these.
+- Gift of Arthas: Your guild may want you to use these to buff melee damage.  In 16 debuffs (and especially 8 debuffs) it is possible this is no longer worth the debuff slot, depending on your raid makeup and other debuffs available.  Check with your raid leader.
+Elixir of Superior Defense: This is (probably) not supposed to stack with Greater Stoneshield Potion, but if you’re not using Stoneshields, it is a decent armor elixir.
+Elixir of Fortitude: Weak but worthwhile health elixir.  Stacks with everything.  If you have the resources to farm or buy these, they are a decent option.
+Notes on Lung Juice Cocktail, Elixir of Brute Force, and Elixir of Giants: as far as I can tell, these are not meant to stack with various alternative (read: better) buffs and consumables.  If you are experiencing otherwise for any of these three, they are very good options.
+Juju Ember, Juju Flurry, and Sheen of Zanza may each have their place in your bags as well, but would fall under the optional category for me (unless your guild has a strategy that makes use of Sheen of Zanza, of course).
+Scrolls (of Armor, Stamina, Strength, and Agility): It is my experience that these are not meant to stack with their respective elixir alternative.  YMMV.
+Whipper Root Tuber: Decent alternative to warlock’s Health Stone if they are running low on shards.
+
+  
